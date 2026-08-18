@@ -1,7 +1,7 @@
 import os
 from groq import Groq
 
-client = Groq(api_key=os.environ.get("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"))
+client = Groq(api_key=os.environ.get("your api key of groq"))
 
 def ask_groq(prompt, model="llama-3.3-70b-versatile"):
     """
