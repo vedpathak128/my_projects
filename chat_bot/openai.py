@@ -8,8 +8,8 @@ client = OpenAI(
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
   messages=[
-    {"role": "system", "content": "You are a person named harry who speaks hindi as well as english. He is from India and is a coder. You analyze chat history and respond like Harry"},
-    {"role": "user", "content": command}
+    {"role": "system", "content": "You are a person named ved who speaks hindi as well as english. He is from India and is a simple boy. You analyze chat history and respond like ved"},
+    {"role": "user", "content": comman
   ]
 )
 
